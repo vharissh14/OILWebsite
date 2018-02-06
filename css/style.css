@@ -3,6 +3,23 @@ html, body{
   font-family: 'Slabo 27px', serif !important;
 }
 
+.dropdown-menu
+{
+  background-color: #373b44 !important;
+  color: #fff !important;
+}
+
+.dropdown-item
+{
+  color: #ffffff !important;
+}
+
+.dropdown-item:hover
+{
+  color: #000 !important;
+  background-color: #f7f7f9 !important;
+}
+
 .nav-color
 {
   background-color: #373B44 !important;
@@ -17,10 +34,21 @@ html, body{
   background-size: cover;
 }
 
+/* .jumbotron
+{
+  background-color: #DFDCDB;
+  margin-bottom: 0;
+} */
+
 .jumbotron
 {
   background-color: #DFDCDB;
   margin-bottom: 0;
+  background-image: url(../Images/logo2.svg);
+  background-repeat:no-repeat;
+  background-position: center;
+  z-index: 1;
+  background-size: auto 100%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
